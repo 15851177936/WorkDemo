@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Configuration;
 using System.Diagnostics;
-using System.Windows;
 using System.Windows.Forms;
 
 namespace CPUMonitor
@@ -12,7 +11,7 @@ namespace CPUMonitor
         public Form1()
         {
             InitializeComponent();
-            notifyIcon_cpu.Icon = new System.Drawing.Icon(ConfigurationManager.AppSettings["playbackImageFloadPathDefault"]);
+            notifyIcon_cpu.Icon = new System.Drawing.Icon(ConfigurationManager.AppSettings["playbackImageFloadPathDefault"]);//初始化时用透明图标
             playbackThread = new PlaybackThread(notifyIcon_cpu);
         }
 
@@ -47,24 +46,14 @@ namespace CPUMonitor
             }
         }
 
-        /// <summary>
-        /// 获取屏幕Dpi重新计算显示宽度和高度
-        /// </summary>
-        public void GetScreenSize()
+        private void Form1_Load(object sender, EventArgs e)
         {
-            // 调用GetSystemDPI方法并打印DPI值
-            uint systemDPI = DPIHelper.GetSystemDPI();
-            Console.WriteLine("System DPI: " + systemDPI);
-
-            double x = SystemParameters.WorkArea.Width;//得到屏幕工作区域宽度
-            double y = SystemParameters.WorkArea.Height;//得到屏幕工作区域高度
-            double x1 = SystemParameters.PrimaryScreenWidth;//得到屏幕整体宽度
-            double y1 = SystemParameters.PrimaryScreenHeight;//得到屏幕整体高度
-
-            double width = SystemParameters.PrimaryScreenWidth;
-            double height = SystemParameters.PrimaryScreenHeight;
-            this.Width = (int)(width * (0.7));
-            this.Height = (int)(height * (0.7));
+            //隐藏窗体和状态栏图标
+            this.BeginInvoke(new Action(() =>
+            {
+                this.Hide();
+                this.Opacity = 1;
+            }));
         }
     }
 }
