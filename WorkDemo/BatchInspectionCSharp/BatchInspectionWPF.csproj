@@ -10,13 +10,13 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.14.1" />
-    <PackageReference Include="SixLabors.ImageSharp" Version="3.1.10" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="3.1.11" />
     <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta14" />
   </ItemGroup>
 
   <ItemGroup>
     <Reference Include="Yolov5Net.Scorer">
-      <HintPath>..\..\..\..\2024\tian\yolov8quexianjiance\yolov5-net-master\yolov5-net-master\src\Yolov5Net.Scorer\bin\Debug\net6.0\Yolov5Net.Scorer.dll</HintPath>
+      <HintPath>..\packages\Yolov5Net.Scorer\bin\Debug\net6.0\Yolov5Net.Scorer.dll</HintPath>
     </Reference>
   </ItemGroup>
 

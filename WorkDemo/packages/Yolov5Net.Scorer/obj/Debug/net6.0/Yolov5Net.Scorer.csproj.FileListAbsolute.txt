@@ -1,0 +1,12 @@
+D:\own\2024\tian\yolov8quexianjiance\yolov5-net-master\yolov5-net-master\src\Yolov5Net.Scorer\bin\Debug\net6.0\Yolov5Net.Scorer.deps.json
+D:\own\2024\tian\yolov8quexianjiance\yolov5-net-master\yolov5-net-master\src\Yolov5Net.Scorer\bin\Debug\net6.0\Yolov5Net.Scorer.dll
+D:\own\2024\tian\yolov8quexianjiance\yolov5-net-master\yolov5-net-master\src\Yolov5Net.Scorer\bin\Debug\net6.0\Yolov5Net.Scorer.pdb
+D:\own\2024\tian\yolov8quexianjiance\yolov5-net-master\yolov5-net-master\src\Yolov5Net.Scorer\obj\Debug\net6.0\Yolov5Net.Scorer.csproj.AssemblyReference.cache
+D:\own\2024\tian\yolov8quexianjiance\yolov5-net-master\yolov5-net-master\src\Yolov5Net.Scorer\obj\Debug\net6.0\Yolov5Net.Scorer.GeneratedMSBuildEditorConfig.editorconfig
+D:\own\2024\tian\yolov8quexianjiance\yolov5-net-master\yolov5-net-master\src\Yolov5Net.Scorer\obj\Debug\net6.0\Yolov5Net.Scorer.AssemblyInfoInputs.cache
+D:\own\2024\tian\yolov8quexianjiance\yolov5-net-master\yolov5-net-master\src\Yolov5Net.Scorer\obj\Debug\net6.0\Yolov5Net.Scorer.AssemblyInfo.cs
+D:\own\2024\tian\yolov8quexianjiance\yolov5-net-master\yolov5-net-master\src\Yolov5Net.Scorer\obj\Debug\net6.0\Yolov5Net.Scorer.csproj.CoreCompileInputs.cache
+D:\own\2024\tian\yolov8quexianjiance\yolov5-net-master\yolov5-net-master\src\Yolov5Net.Scorer\obj\Debug\net6.0\Yolov5Net.Scorer.dll
+D:\own\2024\tian\yolov8quexianjiance\yolov5-net-master\yolov5-net-master\src\Yolov5Net.Scorer\obj\Debug\net6.0\refint\Yolov5Net.Scorer.dll
+D:\own\2024\tian\yolov8quexianjiance\yolov5-net-master\yolov5-net-master\src\Yolov5Net.Scorer\obj\Debug\net6.0\Yolov5Net.Scorer.pdb
+D:\own\2024\tian\yolov8quexianjiance\yolov5-net-master\yolov5-net-master\src\Yolov5Net.Scorer\obj\Debug\net6.0\ref\Yolov5Net.Scorer.dll

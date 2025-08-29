@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ExPEdf52YeI=",
+  "success": true,
+  "projectFilePath": "D:\\own\\2024\\tian\\yolov8quexianjiance\\yolov5-net-master\\yolov5-net-master\\src\\Yolov5Net.Scorer\\Yolov5Net.Scorer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\qiwa\\.nuget\\packages\\microsoft.ml.onnxruntime.managed\\1.14.1\\microsoft.ml.onnxruntime.managed.1.14.1.nupkg.sha512",
+    "C:\\Users\\qiwa\\.nuget\\packages\\sixlabors.imagesharp\\3.0.0\\sixlabors.imagesharp.3.0.0.nupkg.sha512",
+    "C:\\Users\\qiwa\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
