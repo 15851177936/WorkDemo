@@ -33,9 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="hdevenginedotnet, Version=22.11.3.0, Culture=neutral, PublicKeyToken=4973bed59ddbf2b8, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\MVTec\HALCON-24.11-Progress-Steady\bin\dotnet20\hdevenginedotnet.dll</HintPath>
+    <Reference Include="hdevenginedotnet">
+      <HintPath>..\..\dll\hdevenginedotnet.dll</HintPath>
     </Reference>
     <Reference Include="LMStringConvertLib">
       <HintPath>..\packages\LMStringConvertLib.dll</HintPath>
